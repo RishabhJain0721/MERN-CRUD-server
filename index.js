@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json()); // Add this line to parse JSON in request bodies
 
 const PORT = process.env.PORT || 3000;
-const PASSWORD = process.env.PASSWORD;
+const PASSWORD = process.env.PASS;
 
 const schemaData = new mongoose.Schema(
   {
